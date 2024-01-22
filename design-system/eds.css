@@ -1,0 +1,130 @@
+/*!
+ * EAUCOLE Design System - https://eaucole.com
+ * Copyright 2020-2024, EAUCOLE Team
+ * Licensed under MIT (<add license here>)
+ */
+
+/* Inter font from (https://fonts.google.com/) */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap'); */
+
+/* Roboto font from (https://fonts.google.com/) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+:root{
+    --dark: #252e35;
+    --primary: #2983c8;
+    --error: #a11422;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    /* Inter font */
+    /* font-family: 'Inter', sans-serif !important; */
+
+    /* Roboto font */
+    font-family: 'Roboto', sans-serif !important;
+
+    overflow-x: hidden !important;
+    letter-spacing: .3px !important;
+
+    color: var(--dark) !important;
+}
+
+/* Texts */
+h1,h2,h3,h4,h5,h6{
+    color: var(--dark) !important;
+}
+
+.text-dark{
+    color: var(--dark) !important;
+}
+
+a{
+    color: var(--primary) !important;
+}
+
+/* Buttons */
+.btn{
+    border-radius: 0px !important;
+    font-weight: 300 !important;
+    padding: 0.55rem 1.35rem !important;
+    box-shadow: none !important;
+    border: 1.5px solid #fff !important;
+}
+.btn-hover{
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-active{
+    opacity: 1;
+    box-shadow: 0 0 0 0.15rem var(--dark) !important;
+}
+.btn:active{
+    opacity: 1;
+    box-shadow: 0 0 0 0.15rem var(--dark) !important;
+}
+.btn-dark{
+    background-color: var(--dark) !important;
+}
+
+.btn.disabled, .btn:disabled{
+    opacity: .45 !important;
+}
+
+.eau-rounded-1{
+    border-radius: .95rem !important;
+}
+
+/* Inputs */
+.form-control{
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+.form-control-hover{
+    border: 1px solid var(--dark) !important;
+}
+.form-control:hover{
+    border: 1px solid var(--dark) !important;
+}
+.form-control-focus{
+    border: 2px solid var(--dark) !important;
+}
+.form-control:focus{
+    border: 2px solid var(--dark) !important;
+}
+.form-control-error{
+    border: 2px solid var(--error) !important;
+}
+
+/* Others */
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-error{
+    background-color: var(--error) !important;
+}
+.nav-link{
+    border-radius: 0px !important;
+    font-weight: 300 !important;
+    padding: 0.55rem 1.35rem !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: var(--dark) !important;
+}
+.w-300px{
+    width: 300px;
+}
+.alert{
+    border-radius: 0px !important;
+}
+.border-dark{
+    border: 1px solid var(--dark);
+}
